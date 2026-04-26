@@ -6,5 +6,5 @@ let responde = 'saturday' + 'sunday'
 
 if ( dayOfWeek == response )
 {
-alert()
+alert('Have a good weekend')
 }
