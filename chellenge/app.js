@@ -1,1 +1,3 @@
-prompt('Qual o dia da semana?')
+prompt( 'What day of the week is it?' )
+console.log( prompt )
+
