@@ -1,10 +1,7 @@
 let dayOfWeek = prompt( 'What day of the week is it?' );
 console.log( dayOfWeek );
 
-let response = 'saturday' + 'sunday';
-
-
-if ( dayOfWeek == response )
+if ( dayOfWeek == saturday || dayOfWeek == sunday )
 {
     alert( 'Have a good weekend.' );
 }
