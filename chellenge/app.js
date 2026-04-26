@@ -1,5 +1,5 @@
 let dayOfWeek = prompt( 'What day of the week is it?' );
-console.log( dayOfWeek );
+console.log( 'chosen day: ', dayOfWeek );
 
 if ( dayOfWeek == 'saturday' || dayOfWeek == 'sunday' )
 {
