@@ -1,10 +1,11 @@
-let dayOfWeek =  prompt( 'What day of the week is it?' )
-console.log( dayOfWeek )
+let dayOfWeek = prompt( 'What day of the week is it?' );
+console.log( dayOfWeek );
 
-let responde = 'saturday' + 'sunday'
+let responde = 'saturday' + 'sunday';
 
 
 if ( dayOfWeek == response )
 {
-alert('Have a good weekend')
+    alert( 'Have a good weekend.' );
 }
+else{'Good weekend'}
