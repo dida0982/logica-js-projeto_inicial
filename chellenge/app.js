@@ -8,4 +8,7 @@ if ( dayOfWeek == response )
 {
     alert( 'Have a good weekend.' );
 }
-else{'Have a good week'}
+else
+{
+    alert( 'Have a good week' );
+}
