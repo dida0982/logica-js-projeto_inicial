@@ -1,12 +1,35 @@
-/*
+
 alert( "Welcome to the secret number game!" );
-let numberSecret = 29;
+let numberSecret = 8;
+console.log( 'Number secret: ' + numberSecret )
 let kick = prompt( "Choose a number between 1 and 30" );
+console.log('kick: ' + kick)
 
 if ( numberSecret == kick ) {
-    console.log( "That's it! You discovered the secret number (29)!" );
+    alert( `That's it! You discovered the secret number ${numberSecret}!` );
+} else
+{
+    alert( "You were wrong." );
 }
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Test:
