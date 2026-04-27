@@ -27,10 +27,15 @@ else { alert('number odd') };
 */
 
 //test3
+/*
 let number = prompt( 'Enter a number.' )
 
 if (number >= 100) {
     alert('Congratulation, you win.')
 } else {
-alert('You lost')
+    alert('Try again to win.')
 }
+*/
+
+//test4
+
