@@ -14,4 +14,8 @@ else
 
 let number = prompt( 'Enter a number? ' );
 
-if (number/2) { 'Number par ' };
+if ( number / 2 )
+{
+    alert( 'Number even' );
+}
+else { alert('number odd') };
