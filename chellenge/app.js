@@ -30,7 +30,7 @@ else { alert('number odd') };
 let number = prompt( 'Enter a number.' )
 
 if (number >= 100) {
-    alert('Congratuleition you win')
+    alert('Congratulation, you win.')
 } else {
-
+alert('You loser')
 }
