@@ -38,4 +38,5 @@ if (number >= 100) {
 */
 
 //test4
-
+let name = prompt( 'Enter your name.' )
+alert(`Welcome ${name}`)
