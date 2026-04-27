@@ -1,16 +1,27 @@
 
 alert( "Welcome to the secret number game!" );
-let numberSecret = 8;
-console.log( 'Number secret: ' + numberSecret )
-let kick = prompt( "Choose a number between 1 and 30" );
-console.log('kick: ' + kick)
+let numberSecret = 5;
+console.log( 'Number secret: ' + numberSecret );
 
-if ( numberSecret == kick ) {
-    alert( `That's it! You discovered the secret number ${numberSecret}!` );
-} else
-{
-    alert( "You were wrong." );
-}
+let kick;
+console.log( 'kick: ' + kick );
+
+while ( kick != numberSecret ){
+    kick = prompt( "Choose a number between 1 and 30" )
+
+    if ( numberSecret == kick ) {
+        alert( `That's it! You discovered the secret number ${numberSecret}!` );
+    } else
+        {
+            if ( kick > numberSecret  ) {
+                alert( `The secret number is less than ${ kick }` );
+            } else
+                {
+                    alert(`The secret number is greater than ${ kick }`);
+                }
+                alert( "You were wrong." );
+            }
+    }
 
 
 
