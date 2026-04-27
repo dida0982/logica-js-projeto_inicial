@@ -130,7 +130,7 @@ console.log( `Number: ${ number }.` );
 number++;
 }
 
-test12
+test12 | AND (&&) | as duas condições tem que ser verdadeiras.
 let idade = 25;
 let possuiCarteira = true;
 
@@ -141,6 +141,16 @@ if (idade > 18 && possuiCarteira) {
   console.log("Não pode dirigir.");
 }
 
+test12 | OR (||) | pelo menos uma das condições é verdadeira.
 
+let temMaça = false;
+let temBanana = true;
+
+// se tem maça ou tem banana…
+if (temMaça || temBanana) {
+  console.log("Você tem frutas!");
+} else {
+  console.log("Não tem frutas.");
+}
 
 */
