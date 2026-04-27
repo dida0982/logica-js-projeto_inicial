@@ -13,9 +13,12 @@ else
 */
 
 let number = prompt( 'Enter a number? ' );
+console.log( number )
 
 if ( number % 2 === 0 )
 {
     alert( 'Number even' );
 }
 else { alert('number odd') };
+
+console.log( number )
