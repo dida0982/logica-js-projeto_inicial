@@ -32,5 +32,5 @@ let number = prompt( 'Enter a number.' )
 if (number >= 100) {
     alert('Congratulation, you win.')
 } else {
-alert('You loser')
+alert('You lost')
 }
