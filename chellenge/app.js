@@ -1,4 +1,6 @@
 /*
+
+//test1
 let dayOfWeek = prompt( 'What day of the week is it?' );
 console.log( 'chosen day: ', dayOfWeek );
 
@@ -12,11 +14,17 @@ else
 }
 */
 
+//test2
+/*
 let number = prompt( 'Enter a number? ' );
 console.log( 'Number: ', number )
 
 if ( number % 2 === 0 )
 {
-    alert( 'Number even' );
+alert( 'Number even' );
 }
 else { alert('number odd') };
+*/
+
+//test3
+
