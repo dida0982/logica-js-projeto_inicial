@@ -1,3 +1,4 @@
+/*
 let dayOfWeek = prompt( 'What day of the week is it?' );
 console.log( 'chosen day: ', dayOfWeek );
 
@@ -9,3 +10,8 @@ else
 {
     alert( 'Have a good week' );
 }
+*/
+
+let number = prompt( 'Enter a number? ' );
+
+if (number/2) { 'Number par ' };
