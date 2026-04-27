@@ -14,7 +14,7 @@ else
 
 let number = prompt( 'Enter a number? ' );
 
-if ( number / 2 )
+if ( number % 2 === 0 )
 {
     alert( 'Number even' );
 }
