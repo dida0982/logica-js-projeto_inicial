@@ -38,5 +38,12 @@ if (number >= 100) {
 */
 
 //test4
+/*
 let name = prompt( 'Enter your name.' )
 alert(`Welcome ${name}`)
+\ */
+
+//test5
+let accountBalance = 500;
+alert(`Your account balance is R$${accountBalance}`)
+console.log(`account balance: R$`,accountBalance)
