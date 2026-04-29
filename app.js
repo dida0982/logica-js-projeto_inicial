@@ -7,7 +7,7 @@ let attempts = 1;
 console.log( 'Number secret: ', numberSecret );
 
 while ( kick != numberSecret ){
-    kick = prompt( "Choose a number between 1 and 30" );
+    kick = prompt( "Choose a number between 1 and 10" );
     console.log( `kicks: ${kick}` );
 
     if ( numberSecret == kick ) {
