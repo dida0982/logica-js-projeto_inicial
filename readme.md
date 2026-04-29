@@ -71,5 +71,7 @@ This project is licensed under the MIT License.
 
 Guilherme Barros
 
-💼 LinkedIn: https://linkedin.com/in/seu-link
-💻 GitHub: https://github.com/seu-usuario
+💼 LinkedIn: https://www.linkedin.com/in/guilherme-barros-6a0369209/
+💻 GitHub: https://github.com/dida0982
+Gmail: developerguilhermebarros@gmail.com
+telephone: +55 61 9 93630439
