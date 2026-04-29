@@ -117,7 +117,7 @@ while (chooseANumber >= number) {
     chooseANumber--;
 }
 
-test11
+//test11
 //Create a program for counting forward. Ask for a number and count from 0 to that number using a while loop in the browser console.
 let number = 0;
 let chooseNumber = prompt( `Choose a number.` );
@@ -130,27 +130,30 @@ console.log( `Number: ${ number }.` );
 number++;
 }
 
-test12 | AND (&&) | as duas condições tem que ser verdadeiras.
+//test12 | AND (&&) | as duas condições tem que ser verdadeiras.
 let idade = 25;
 let possuiCarteira = true;
 
 // se idade é maior que 18 e possui carteira…
 if (idade > 18 && possuiCarteira) {
-  console.log("Pode dirigir!");
+    console.log("Pode dirigir!");
 } else {
-  console.log("Não pode dirigir.");
+    console.log("Não pode dirigir.");
 }
 
-test12 | OR (||) | pelo menos uma das condições é verdadeira.
+//test12 | OR (||) | pelo menos uma das condições é verdadeira.
 
 let temMaça = false;
 let temBanana = true;
 
 // se tem maça ou tem banana…
 if (temMaça || temBanana) {
-  console.log("Você tem frutas!");
+    console.log("Você tem frutas!");
 } else {
-  console.log("Não tem frutas.");
+    console.log("Não tem frutas.");
 }
+
+//test12
+!	NEGAÇÃO	!(A == B)	Verdadeiro se A NÃO for igual a B
 
 */

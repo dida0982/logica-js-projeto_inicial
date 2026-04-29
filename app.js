@@ -8,22 +8,26 @@ console.log( 'Number secret: ', numberSecret );
 
 while ( kick != numberSecret ){
     kick = prompt( "Choose a number between 1 and 30" );
+    console.log( `kicks: ${kick}` );
 
     if ( numberSecret == kick ) {
-        alert( `That's it! You discovered the secret number ${numberSecret}! with ${attempts} attempts.` );
-    } else{
-        if ( kick > numberSecret  ){
-            alert( `The secret number is less than ${ kick }` );
-        } else{
-            alert(`The secret number is greater than ${ kick }`);
+        break;
+    } else
+        {
+            if ( kick > numberSecret  ){
+                alert( `The secret number is less than ${ kick }` );
+            } else{
+                alert(`The secret number is greater than ${ kick }`);
+            }
         }
+        attempts++
         alert( "Try again." );
     }
-    attempts++
-}
 
-console.log( 'attempts: ', attempts );
+let wordAttempts = attempts > 1 ? 'attempts' : 'attempt';
+alert(`Is it! Your discovery the secret number (${numberSecret}) with ${attempts} ${wordAttempts} `)
 
+console.log( `You tried ${ attempts } times: ` );
 
 
 
