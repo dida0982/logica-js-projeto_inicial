@@ -234,10 +234,8 @@ console.log(number);
 number++
 }
 
-*/
 //test22
-
-//Crie uma variável "nota" e atribua um valor numérico a ela. Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
+//Create a variable "grade" the attributed a value numeric the shi. Used if-else code to the determination is a grade is superior our equal the 7 the display "Approved" our "Rejected" to the console.
 
 let grade = Number( prompt( `Enter a number` ) );
 console.log( `Grade: ${ grade }` );
@@ -245,7 +243,15 @@ console.log( `The minimum grade is 7` );
 
 
 if ( grade >= 7 ) {
-console.log( `Approved.` );
+    console.log( `Approved.` );
 } else{
-console.log( `Rejected.` );
+    console.log( `Rejected.` );
 }
+
+//test23
+//Use the code "Math.random" to the generate any number aleatory the display this number to the console.
+
+console.log(parseInt(Math.random()*100+1));
+
+
+*/
