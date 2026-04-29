@@ -48,7 +48,11 @@ Digite um número entre 1 e 10
 Siga as dicas do sistema
 Continue tentando até acertar
 ▶️ How to Run | Como Executar
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/dida0982/logica-js-projeto_inicial.git (HTTPS)
+git clone git@github.com:dida0982/logica-js-projeto_inicial.git (SSH)
+gh repo clone dida0982/logica-js-projeto_inicial (GitHub CLI)
+
+
 cd your-repository-name
 
 Open the index.html file in your browser.
