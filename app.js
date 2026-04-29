@@ -1,6 +1,6 @@
 alert( "Welcome to the secret number game!" );
 
-let numberSecret = 5;
+let numberSecret = parseInt(Math.random() * 10 + 1) ;
 let kick;
 let attempts = 1;
 
