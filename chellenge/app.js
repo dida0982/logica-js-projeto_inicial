@@ -197,11 +197,8 @@ let result = value1 - value2;
 console.log(`The subtraction of ${value1} and ${value2} equals ${result}.`);
 
 //test19
-//Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida, utilize um if para verificar se a pessoa é maior ou menor de idade, exibindo uma mensagem apropriada no console.
-
 //Ask the user to enter their age using the prompt. Based on the age entered, use an if statement to check if the person is of legal age or a minor, diplaying an appropriate message in the console.
 
-*/
 let age = prompt( `Enter their age.` )
 console.log(age);
 
@@ -209,5 +206,22 @@ console.log(age);
 if (age>=18) {
     console.log(`Of legal age:(${age})`);
 } else {
-console.log(`Minor of age:(${age})`);
+    console.log(`Minor of age:(${age})`);
+}
+
+*/
+//test20
+
+//Crie uma variável "numero" e peça um valor com prompt verifique se é positivo, negativo ou zero. Use if-else para imprimir a respectiva mensagem.
+
+//Create a variable called "number" and prompt it for a value; check if it's positive, negative, or zero. Use an if-else statement to print the corresponding message.
+
+let number = Number( prompt( `Enter a number` ) );
+
+if (Math.sign(number) === 1) {
+    console.log(`Number ${number} positive.`);
+}  else if(Math.sign(number) === -1) {
+    console.log(`Number ${number} negative.`);
+} else {
+    console.log(`Number is zero.`);
 }
