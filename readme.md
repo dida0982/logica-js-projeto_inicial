@@ -57,16 +57,6 @@ cd your-repository-name
 
 Open the index.html file in your browser.
 
-📷 Preview
-
-💡 Dica: você pode colocar um GIF aqui mostrando o jogo rodando (isso deixa seu GitHub MUITO mais forte).
-
-💡 Improvements | Melhorias Futuras
-Criar interface gráfica (sem prompt)
-Adicionar níveis de dificuldade
-Limitar tentativas
-Histórico de tentativas na tela
-Animações e efeitos sonoros
 📄 License
 
 This project is licensed under the MIT License.
