@@ -209,11 +209,7 @@ if (age>=18) {
     console.log(`Minor of age:(${age})`);
 }
 
-*/
 //test20
-
-//Crie uma variável "numero" e peça um valor com prompt verifique se é positivo, negativo ou zero. Use if-else para imprimir a respectiva mensagem.
-
 //Create a variable called "number" and prompt it for a value; check if it's positive, negative, or zero. Use an if-else statement to print the corresponding message.
 
 let number = Number( prompt( `Enter a number` ) );
@@ -224,4 +220,17 @@ if (Math.sign(number) === 1) {
     console.log(`Number ${number} negative.`);
 } else {
     console.log(`Number is zero.`);
+}
+
+*/
+//test21
+//Use um loop while para imprimir os números de 1 a 10 no console.
+
+let number = 1
+console.log(number);
+
+while ( number <= 10 )
+{
+    console.log(number);
+    number++
 }
