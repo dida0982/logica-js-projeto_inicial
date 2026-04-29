@@ -189,6 +189,7 @@ console.log(`The sun of ${value1} and ${value2} equals ${result}.`);
 
 //test18
 //Create variable called "value1" and another called "value2", assigning them numerical values of your choice. Then, subtract these two values and store the result in a third variable called. Then the subtracted these two values and store the result in a third variable called "result". Use console.log to display the message "The difference between [value1] and [value2] is equal to [result]" in the console.
+
 let value1 = Number(prompt('Choose a number')) ;
 let value2 = Number(prompt( 'Choose another number' ));
 let result = value1 - value2;
@@ -196,5 +197,17 @@ let result = value1 - value2;
 console.log(`The subtraction of ${value1} and ${value2} equals ${result}.`);
 
 //test19
-//
+//Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida, utilize um if para verificar se a pessoa é maior ou menor de idade, exibindo uma mensagem apropriada no console.
+
+//Ask the user to enter their age using the prompt. Based on the age entered, use an if statement to check if the person is of legal age or a minor, diplaying an appropriate message in the console.
+
 */
+let age = prompt( `Enter their age.` )
+console.log(age);
+
+
+if (age>=18) {
+    console.log(`Of legal age:(${age})`);
+} else {
+console.log(`Minor of age:(${age})`);
+}
