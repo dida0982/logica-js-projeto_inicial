@@ -1,11 +1,8 @@
 🎯 Secret Number Game | Jogo do Número Secreto
+<!-- Failed to upload "2026-04-29 19-49-10.mp4" -->
 
-
-
-
-
-
-
+<img width="1914" height="902" alt="Image" src="https://github.com/user-attachments/assets/ab735586-33cc-4460-a071-229d2abd0a72" />
+<img width="1916" height="1079" alt="Image" src="https://github.com/user-attachments/assets/7c4f798b-75f1-4a5f-97aa-0f0a4e4c52ef" />
 
 📌 About the Project | Sobre o Projeto
 
