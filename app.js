@@ -30,7 +30,7 @@ alert(`Is it! Your discovery the secret number (${numberSecret}) with ${attempts
 console.log( `You tried ${ attempts } times: ` );
 
 
-
+sdasdasd
 
 
 
