@@ -156,4 +156,38 @@ if (temMaça || temBanana) {
 //test12
 !	NEGAÇÃO	!(A == B)	Verdadeiro se A NÃO for igual a B
 
+//test13
+//Create a program that uses the console.log to display a welcome mensage.
+
+console.log('Welcome');
+
+//test14
+//Create a variable called "name" and assign it your name. Then, use console.log to display the message "Hello, [your name]!" in the browser console.
+let name = 'Guilherme';
+console.log(`Hello, ${name}!`);
+
+//test15
+//Create a variable called "name" and assign it your name. Then, use alert to diplay the message "Hello, [your name]!"
+
+let name = 'Guilherme';
+alert( `Hello, ${ name }` );
+
+//test16
+//Use the prompt and ask the following question: What programming language do your like the most? Next, store the responsive in a variable end diplay it in the browser console.
+
+let programmingLanguage = prompt( `What programming language do your like the most?` )
+console.log(programmingLanguage);
+
+//test17
+//Crie uma variável chamada "valor1" e outra chamada "valor2", atribuindo a elas valores numéricos de sua escolha. Em seguida, realize a soma desses dois valores e armazene o resultado em uma terceira variável chamada "resultado". Utilize o console.log para mostrar a mensagem "A soma de [valor1] e [valor2] é igual a [resultado]." no console.
+
+
+//Create a variable called "value1" and another called "value2", assigning them numerical values ​​of your choice. Then, add these two values ​​and store the result in a third variable called "result". Use console.log to display the message "The sum of [value1] and [value2] is equal to [result]." in the console.
+
+//Crie uma variável chamada "valor1" e outra chamada "valor2", atribuindo a elas valores numéricos de sua escolha. Em seguida, realize a soma desses dois valores e armazene o resultado em uma terceira variável chamada "resultado". Utilize o console.log para mostrar a mensagem "A soma de [valor1] e [valor2] é igual a [resultado]." no console.
+
 */
+let value1 = Number(prompt( `Escolha um valor ` ));
+let value2 = Number(prompt( `Escolha outro valor` ));
+let result = value1 + value2;
+console.log(`A soma de ${value1} e ${value2} é igual a ${result}.`);
