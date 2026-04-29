@@ -222,15 +222,30 @@ if (Math.sign(number) === 1) {
     console.log(`Number is zero.`);
 }
 
-*/
 //test21
-//Use um loop while para imprimir os números de 1 a 10 no console.
+//Use a while loop to print the numbers 1 through 10 to the console.
 
 let number = 1
 console.log(number);
 
 while ( number <= 10 )
 {
-    console.log(number);
-    number++
+console.log(number);
+number++
+}
+
+*/
+//test22
+
+//Crie uma variável "nota" e atribua um valor numérico a ela. Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
+
+let grade = Number( prompt( `Enter a number` ) );
+console.log( `Grade: ${ grade }` );
+console.log( `The minimum grade is 7` );
+
+
+if ( grade >= 7 ) {
+console.log( `Approved.` );
+} else{
+console.log( `Rejected.` );
 }
