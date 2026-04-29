@@ -252,6 +252,4 @@ if ( grade >= 7 ) {
 //Use the code "Math.random" to the generate any number aleatory the display this number to the console.
 
 console.log(parseInt(Math.random()*100+1));
-
-
 */
