@@ -188,12 +188,13 @@ let result = value1 + value2;
 console.log(`The sun of ${value1} and ${value2} equals ${result}.`);
 
 //test18
-//Crie uma variável chamada "valor1" e outra chamada "valor2", atribuindo a elas valores numéricos de sua escolha. Em seguida, realize a subtração desses dois valores e armazene o resultado em uma terceira variável chamada "resultado". Utilize o console.log para mostrar a mensagem "A diferença entre [valor1] e [valor2] é igual a [resultado]." no console.
-
-//
-*/
+//Create variable called "value1" and another called "value2", assigning them numerical values of your choice. Then, subtract these two values and store the result in a third variable called. Then the subtracted these two values and store the result in a third variable called "result". Use console.log to display the message "The difference between [value1] and [value2] is equal to [result]" in the console.
 let value1 = Number(prompt('Choose a number')) ;
 let value2 = Number(prompt( 'Choose another number' ));
 let result = value1 - value2;
 
 console.log(`The subtraction of ${value1} and ${value2} equals ${result}.`);
+
+//test19
+//
+*/
