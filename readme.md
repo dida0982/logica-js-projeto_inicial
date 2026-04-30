@@ -52,9 +52,6 @@ git clone https://github.com/dida0982/logica-js-projeto_inicial.git (HTTPS)
 git clone git@github.com:dida0982/logica-js-projeto_inicial.git (SSH)
 gh repo clone dida0982/logica-js-projeto_inicial (GitHub CLI)
 
-
-cd your-repository-name
-
 Open the index.html file in your browser.
 
 📄 License
